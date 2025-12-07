@@ -17,7 +17,7 @@ export default function Nav() {
       }}
       className={"fixed top-0 left-0 w-full z-[20] py-6"}
     >
-      <NavbarBrand className="text-2xl font-bold">
+      <NavbarBrand className="">
         <Button 
           as={Link} 
           radius={"none"}
@@ -25,7 +25,7 @@ export default function Nav() {
           startContent={<Image src="/waveful-app.png" alt="Waveful" className={"block bg-transparent h-16"} />}
           className="text-4xl py-12 bg-transparent text-default-900 font-semibold"
         >
-          <span className="hidden md:inline">Waveful</span>
+          <span className="hidden md:inline font-cocogoose">Waveful</span>
         </Button>
       </NavbarBrand>
       <NavbarContent justify="end" className="gap-4">
@@ -36,7 +36,7 @@ export default function Nav() {
           <Button 
             as={Link} 
             radius={"lg"}
-            href="https://waveful.app/download"
+            href="https://waveful.com/download"
             size={"lg"}
             className="py-8 text-xl font-semibold text-default-100 bg-default-900"
           >
