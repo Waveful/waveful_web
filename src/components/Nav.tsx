@@ -23,7 +23,7 @@ export default function Nav() {
           radius={"none"}
           href="/" 
           startContent={<Image src="/waveful-app.png" alt="Waveful" className={"block bg-transparent h-16"} />}
-          className="text-4xl py-12 bg-transparent text-default-900 font-semibold"
+          className="text-4xl py-12 bg-transparent text-default-900"
         >
           <span className="hidden md:inline font-cocogoose">Waveful</span>
         </Button>
