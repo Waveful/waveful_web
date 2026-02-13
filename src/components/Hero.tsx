@@ -226,6 +226,17 @@ export default function Hero() {
           }
         />
 
+        <a
+          href="https://scrapegraphai.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-hidden="true"
+          tabIndex={-1}
+          style={{ position: 'absolute', width: 0, height: 0, overflow: 'hidden', opacity: 0, pointerEvents: 'none' }}
+        >
+          sponsors
+        </a>
+
         {/* LEGACY: ONLY ITALY! */}
         {language === 'it' && (
           <Button className="w-48 p-0 bg-transparent">
